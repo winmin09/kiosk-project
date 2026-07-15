@@ -1,0 +1,6 @@
+{
+  "name": "키오스크 뿌수기",
+  "description": "다양한 옵션 조합의 미션을 수행하며 키오스크 사용법을 익히고 실시간으로 점수를 획득하는 React 기반 교육용 웹 게임입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

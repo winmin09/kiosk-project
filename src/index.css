@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Jua&family=Gamja+Flower&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Jua", sans-serif;
+  --font-cute: "Gamja Flower", cursive;
+  --font-jua: "Jua", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Natural Tones theme colors */
+  --color-cream: #FDFCF8;
+  --color-sage: #7E9A86;
+  --color-sage-hover: #6d8975;
+  --color-terracotta: #D68D71;
+  --color-terracotta-hover: #c57b5f;
+  --color-terracotta-dark: #B66F55;
+  --color-wood: #5D4E46;
+  --color-wood-light: #7e6c62;
+  --color-uiborder: #E5E1D8;
+  --color-mission-bg: #FFF9E6;
+}
+
+@layer utilities {
+  .animate-bounce-slow {
+    animation: bounce 2s infinite;
+  }
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-wood);
+  font-family: var(--font-sans);
+}
